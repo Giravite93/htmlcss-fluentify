@@ -7,3 +7,77 @@
 body {
 	font-family: "Roboto", sans-serif;
 }
+
+/*COMMON*/
+.container {
+	margin: 0 auto;
+	width: 80%;
+}
+
+img {
+	width: 100%;
+}
+
+.float-l {
+	float: left;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.btn {
+	border-radius: 10px;
+	padding: 10px 30px;
+}
+
+.button-light {
+	border: 1px white solid;
+}
+
+.button-green {
+	border: 1px green solid;
+	background-color: green;
+}
+/* HEADER */
+header {
+	background-image: url("../img/background-header.png");
+	background-color: #0c325a;
+	height: 500px;
+	background-size: 1000px;
+	background-repeat: no-repeat;
+	background-position: 108% 118%;
+}
+
+/*Menu*/
+
+nav {
+	padding-top: 10px;
+}
+
+.menu li {
+	list-style-type: none;
+	display: inline-block;
+	line-height: 49px;
+	margin-left: 6%;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+.menu li a:hover {
+	color: orange;
+}
+
+.menu-central {
+	width: 50%;
+}
+
+.menu-right {
+	width: 40%;
+}
