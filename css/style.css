@@ -10,8 +10,10 @@ body {
 
 /*COMMON*/
 .container {
+	position: relative;
 	margin: 0 auto;
 	width: 80%;
+	height: 100%;
 }
 
 img {
@@ -31,6 +33,9 @@ img {
 .btn {
 	border-radius: 10px;
 	padding: 10px 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
 }
 
 .button-light {
@@ -61,7 +66,7 @@ nav {
 	list-style-type: none;
 	display: inline-block;
 	line-height: 49px;
-	margin-left: 6%;
+	margin-left: 3%;
 }
 
 .menu li a {
@@ -76,8 +81,26 @@ nav {
 
 .menu-central {
 	width: 50%;
+	padding-left: 2%;
 }
 
 .menu-right {
 	width: 40%;
+}
+
+/*Teaser*/
+.teaser {
+	position: absolute;
+	bottom: 37%;
+	left: 11%;
+	width: 50%;
+}
+.teaser h1 {
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+}
+.teaser a {
+	margin-top: 2%;
+	display: inline-block;
 }
