@@ -43,8 +43,26 @@ img {
 }
 
 .button-green {
-	border: 1px green solid;
-	background-color: green;
+	border: 1px #7cbb02 solid;
+	background-color: #7cbb02;
+}
+
+.grey-block {
+	background-color: #d3d3d3;
+}
+
+.text-center {
+	text-align: center;
+}
+
+section .container {
+	margin-top: 2%;
+}
+
+.p-text-grey {
+	font-size: 17px;
+	color: #808080;
+	margin-top: 1%;
 }
 /* HEADER */
 header {
@@ -78,6 +96,9 @@ nav {
 .menu li a:hover {
 	color: orange;
 }
+.menu li a.btn:hover {
+	color: white;
+}
 
 .menu-central {
 	width: 50%;
@@ -95,12 +116,52 @@ nav {
 	left: 11%;
 	width: 50%;
 }
+
 .teaser h1 {
 	color: white;
 	font-size: 40px;
 	font-weight: 700;
 }
+
 .teaser a {
 	margin-top: 2%;
 	display: inline-block;
+}
+
+/*SUBHEADER*/
+.sub-header {
+	padding: 2% 0;
+}
+
+/*MAIN*/
+.columns-section-1 {
+	width: 30%;
+}
+
+.columns-section-1 img {
+	display: block;
+	height: 150px;
+}
+
+.columns-section-1:nth-child(2) {
+	margin: 0 5%;
+}
+
+.columns-section-1 h2 {
+	font-size: 31px;
+	color: #7cbb02;
+	padding: 2% 0;
+}
+
+.columns-section-1 hr {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.columns-section-1 .p-text-grey {
+	margin-top: 5%;
+}
+
+.text-h2 {
+	height: 90px;
 }
